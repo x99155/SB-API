@@ -4,7 +4,7 @@ import com.process.sa.enums.TypeSentiment;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "reviews")
+@Table(name = "review")
 public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
